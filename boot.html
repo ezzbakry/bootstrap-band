@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="boot.css">
+    <title>Document</title>
+</head>
+<body>
+  
+  <nav id="nav" class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Logo</a>
+      
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Band</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tour</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Extras</a></li>
+              <li><a class="dropdown-item" href="#">Media</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   <div class="all">
+  
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <li type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active rounded-pill" aria-current="true" aria-label="Slide 1"></li>
+            <li class="rounded-circle" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2" ></li>
+            <li class="rounded-pill" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></li>
+          </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="chicago.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 style="margin-bottom: 30px;">chicago</h5>
+                <p>Thanks Chicago </p>
+              </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="la.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 style="margin-bottom: 30px;">LA</h5>
+                <p>Even though the traffic was a mess, we had the best time playing at Venice Beach! </p>
+              </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="ny.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 style="margin-bottom: 30px;">New York</h5>
+                <p>Thanks NY</p>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   </div>
+   
+    <div class="about">
+        <h4>The band</h4>
+        <p>We love music!</p>
+        <p class="fs-6">
+            We have created a fictional band website.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         <div class="container">
+            <div class="row">
+                <div class="images col-12 col-lg-4 col-sm-12 ">
+                    <h6> Name </h6>
+                    <a  data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <img src="bandmember.jpg" id="image1" class="rounded-circle image" alt="Cinque Terre">
+                      </a>
+                      <div class="collapse" id="collapseExample">
+                        <p id="disp1">Guitarist and Lead Vocalist
+                        </p>
+                        <p id="disp1">Loves long walks on the beach
+                        </p>
+                        <p id="disp1">Member since 1988
+                        </p>
+                      </div>
+                    
+                </div>
+                <div class="images col-12 col-lg-4 col-sm-12">
+                    <h6> Name </h6>
+                    <a  data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <img src="bandmember.jpg" id="image1" class="rounded-circle image" alt="Cinque Terre">
+                      </a>
+                      <div class="collapse" id="collapseExample1">
+                        <p id="disp1">Drummer</p>
+                        <p id="disp1">Loves drummin'</p>
+                        <p id="disp1">Member since 1988
+                        </p>
+                      </div>
+                </div>
+                <div class="images col-12 col-lg-4 col-sm-12 ">
+                    <h6> Name </h6>
+                    <a  data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <img src="bandmember.jpg" id="image1" class="rounded-circle image" alt="Cinque Terre">
+                      </a>
+                      <div class="collapse" id="collapseExample2">
+                        <p id="disp1">Bass player
+                        </p>
+                        <p id="disp1">Loves math</p>
+                        <p id="disp1">Member since 2005
+                        </p>
+                      </div>
+                </div>
+            </div>
+         </div>        
+    </div>
+
+    <div class="tour">
+        <h3 class="text-center text-white p-3 m-3">TOUR DATES</h3>
+        <p id ="kk" class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!<br><br></p>
+        <div class="container">
+            <div class="row w-100">
+                <ul class="list-group">
+                    <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
+                    <li class="list-group-item ">October <span class="label label-danger">Sold Out!</span></li> 
+                    <li class="list-group-item">November <span class="badge">3</span></li> 
+                  </ul>
+            </div>
+        </div>
+        
+
+        <div class="container">
+            
+            <div class="row text-center">
+                <div class="card col-12 col-lg-4 col-sm-12 col-xs-12 p-0" style="width: 17rem; height: 22rem; border-radius:0%; justify-content: center; align-items: center;text-align: center;">
+                    <img src="paris.jpg"  class="card-img-top w-100 h-100" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Paris</h5>
+                      <p class="card-text">Friday 27 November 2015</p>
+                      <a href="#" class="btn btn-secondary">Buy Tickets</a>
+                    </div>
+                  </div>
+                  <div class="card col-12 col-lg-4  col-sm-12 col-xs-12 p-0" style="width: 17rem; height: 22rem; border-radius:0%; justify-content: center; align-items: center;text-align: center;">
+                    <img src="newyork.jpg"  class="card-img-top w-100 h-100" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">New york</h5>
+                      <p class="card-text">Friday 27 November 2015</p>
+                      <a href="#" class="btn btn-secondary">Buy Tickets</a>
+                    </div>
+                  </div>
+                  <div class="card col-12 col-lg-4  col-sm-12 col-xs-12 p-0" style="width: 17rem; height: 22rem; border-radius:0%; justify-content: center; align-items: center;text-align: center;">
+                    <img src="sanfran.jpg"  class="card-img-top w-100 h-100" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">San Fransisco</h5>
+                      <p class="card-text">Friday 27 November 2015</p>
+                      <a href="#" class="btn btn-secondary">Buy Tickets</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact text-center">
+        <h3 class="text-center">From The Blog</h3>
+        <ul id="blogs" class="nav nav-tabs">
+            <li class="nav-item">
+              <a id="mike" class="nav-link active" aria-current="page" >Mike</a>
+            </li>
+            <li class="nav-item">
+              <a  id="chandler" class="nav-link">Chandler</a>
+            </li>
+            <li class="nav-item">
+              <a id="peter" class="nav-link">Peter</a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div id="home">
+              <h2>Mike Ross, Manager</h2>
+              <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
+            </div>
+            <div id="menu1">
+              <h2>Chandler Bing, Guitarist</h2>
+              <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
+            </div>
+            <div id="menu2">
+              <h2>Peter Griffin, Bass player</h2>
+              <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+            </div>
+          </div>
+    </div>
+    <img src="map.jpg" class="img-responsive" style="width:100%">
+    <footer class="footer text-center">
+        <a class="up-arrow text-center " href="#" data-toggle="tooltip" title="" data-original-title="TO TOP">
+            <i class="fa-solid fa-arrow-up mt-3"></i>
+          </a>
+        <p class="text-center mb-3">Bootstrap Theme Made By <a href="https://www.w3schools.com" data-toggle="tooltip" title="" data-original-title="Visit w3schools">www.w3schools.com</a></p>
+    </footer>
+      
+     
+    <script src="boot.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
